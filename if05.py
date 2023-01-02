@@ -16,16 +16,16 @@ def main(n):
     n//=10
     d5 = n % 10
     max = d1
-    if d2 > d1:
-        ans = d2
-    if d3 > d1:
-        ans = d3
-    if d4 > d1:
-        ans = d4
-    if d5 > d1:
-        ans =  d5
+    if d2 > max:
+        max = d2
+    if d3 > max:
+        max = d3
+    if d4 > max:
+        max = d4
+    if d5 > max:
+        max =  d5
     else:
-        ans = d1
-    return ans
+        max = d1
+    return max
 print(main(23546))
 print(main(76514))
