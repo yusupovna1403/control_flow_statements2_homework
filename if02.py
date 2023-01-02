@@ -18,4 +18,3 @@ def main(a,b,c):
 print(main(1,2,4))
 print(main(-1,0,-8))
 print(main(5,2,9))
-    
