@@ -24,8 +24,6 @@ def main(n):
         max = d4
     if d5 > max:
         max =  d5
-    else:
-        max = d1
     return max
 print(main(23546))
 print(main(76514))
